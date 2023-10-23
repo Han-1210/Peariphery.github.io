@@ -19,3 +19,7 @@ Log/21/10/23
 
 然后我想要个中文名（叫小梨炸弹挺好但是没啥逻辑，不像英文Periphery，有自己的含义）
 </body>
+
+
+LOG 23/10/23
+make sure to add many @@@ on an ins post in Peariphery!!!
