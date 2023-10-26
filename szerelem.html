@@ -25,6 +25,18 @@
             font-size: 36px;    /* Sets the font size to 36 pixels */
         }
           </style>
+
+    <style>
+    .lyrics {
+        display: none;
+    }
+
+    /* Display the Chinese lyrics by default, if needed */
+    #chinese {
+        display: block;
+    }
+</style>
+
 </head>
 
     <body>
@@ -52,6 +64,23 @@
 </body>
   
 <body>
+<script>
+    function showLyrics(language) {
+        // Get all the lyrics elements
+        const allLyrics = document.querySelectorAll('.lyrics');
+
+        // Loop through and hide all lyrics elements
+        allLyrics.forEach(lyric => {
+            lyric.style.display = 'none';
+        });
+
+        // Display the selected language's lyrics
+        const selectedLyric = document.getElementById(language);
+        if (selectedLyric) {
+            selectedLyric.style.display = 'block';
+        }
+    }
+</script>
 
 <!-- Buttons -->
 <button onclick="showLyrics('chinese')">中文歌词</button>
