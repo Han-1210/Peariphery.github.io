@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/Picture5.png" type="image/png">
+    <title>Botany</title>
+    <style>
+        body {
+            background-color: #e3edcd;
+            font-family: 'Arial', sans-serif;
+            padding: 20px;
+        }
+        a {
+            display: block;
+            margin-top: 20px;
+        }
+    </style>
+      <style>
+        h1 {
+            font-weight: bold;  /* Makes the font bold */
+            font-size: 36px;    /* Sets the font size to 36 pixels */
+        }
+          </style>
+    <style>
+        img {
+            width: 30%; /* Set the width of all images */
+            margin: 10px 0; /* Add some margin */
+        }
+    </style>
+</head>
+
+
+    <body>
+
+    <p>10/11/23, Edinburgh Prince Street Gardens</p>
+# Replace 'path/to/your/local/repo' with the path to your local Git repository
+
+<body>
+    <pre><code>
+    cd Peariphery.github.io
+    git add Peariphery.github.io/edinburgh/
+    git commit -m "Add multiple images"
+    git push origin main
+    </code></pre>
+</body>
+</html>
+
+
+    
